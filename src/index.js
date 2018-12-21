@@ -1,10 +1,10 @@
 #! /usr/bin/env node
 
 const boxen = require('boxen')
-const { bold, yellow, cyan } = require('chalk').default
+const { bold, magenta, cyan } = require('chalk').default
 const moment = require('moment')
 
-function getGreetingTime () {
+const getGreetingTime = () => {
   let g = null // return g
   const m = moment()
   const splitAfternoon = 12 // 24hr time to split the afternoon
@@ -51,4 +51,4 @@ const style = {
   padding: 1
 }
 
-process.stdout.write(`${yellow(boxen(info.join('\n'), style))}\n\n`)
+process.stdout.write(`${magenta(boxen(info.join('\n'), style))}\n\n`)
