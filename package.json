@@ -1,5 +1,5 @@
 {
-  "name": "siarheimelnik",
+  "name": "ozhaven",
   "version": "1.0.0",
   "description": "A personal npm card",
   "main": "src/",
@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "boxen": "2.1.0",
-    "chalk": "2.4.1"
+    "chalk": "2.4.1",
+    "moment": "^2.23.0"
   },
   "devDependencies": {
     "husky": "^1.2.1",
@@ -26,7 +27,7 @@
     "src/*.js"
   ],
   "bin": {
-    "siarheimelnik": "./src/index.js"
+    "ozhaven": "./src/index.js"
   },
   "husky": {
     "hooks": {
@@ -34,16 +35,19 @@
     }
   },
   "lint-staged": {
-    "*.js": ["npm run lint", "git add"]
+    "*.js": [
+      "npm run lint",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SiarheiMelnik/siarheimelnik.git"
+    "url": "git+https://github.com/therebelrobot/ozhaven.git"
   },
-  "author": "Siarhei Melnik <siarhei.m.a@gmail.com>",
+  "author": "Oz Haven (@therebelrobot) <npm@therebelrobot.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SiarheiMelnik/siarheimelnik/issues"
+    "url": "https://github.com/therebelrobot/ozhaven/issues"
   },
-  "homepage": "https://github.com/SiarheiMelnik/siarheimelnik#readme"
+  "homepage": "https://github.com/therebelrobot/ozhaven#readme"
 }
