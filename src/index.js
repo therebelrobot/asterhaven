@@ -18,7 +18,7 @@ const getGreetingTime = () => {
   } else {
     g = 'morning'
   }
-  return `${moment().format('dddd')} ${g}`
+  return `${m.format('dddd')} ${g}`
 }
 
 const info = [
