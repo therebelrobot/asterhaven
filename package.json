@@ -1,5 +1,5 @@
 {
-  "name": "ozhaven",
+  "name": "asterhaven",
   "version": "1.0.0",
   "description": "A personal npm card",
   "main": "src/",
@@ -27,7 +27,7 @@
     "src/*.js"
   ],
   "bin": {
-    "ozhaven": "./src/index.js"
+    "asterhaven": "./src/index.js"
   },
   "husky": {
     "hooks": {
@@ -42,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/therebelrobot/ozhaven.git"
+    "url": "git+https://github.com/therebelrobot/asterhaven.git"
   },
   "author": "Oz Haven (@therebelrobot) <npm@therebelrobot.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/therebelrobot/ozhaven/issues"
+    "url": "https://github.com/therebelrobot/asterhaven/issues"
   },
-  "homepage": "https://github.com/therebelrobot/ozhaven#readme"
+  "homepage": "https://github.com/therebelrobot/asterhaven#readme"
 }

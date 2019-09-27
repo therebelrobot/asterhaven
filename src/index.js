@@ -22,8 +22,8 @@ const getGreetingTime = () => {
 }
 
 const info = [
-  bold('Oz Haven'),
-  'Senior Software Engineer at Saleae Inc.',
+  bold('Aster Haven'),
+  'Senior Software Engineer at Medium.com',
   '',
   `${bold('GitHub:   ')}${cyan('https://github.com/therebelrobot')}`,
   `${bold('Twitter:  ')}${cyan('https://twitter.com/therebelrobot')}`,
